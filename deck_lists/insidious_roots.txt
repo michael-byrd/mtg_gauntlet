@@ -1,0 +1,51 @@
+# Insidious Roots
+# v1
+2 Osteomancer Adept
+4 Urborg Repossession
+4 Scorn-Blade Berserker
+4 Insidious Roots
+2 Yavimaya Coast
+4 Rubblebelt Maverick
+2 Underground Mortuary
+2 Llanowar Wastes
+4 Tyvar, Jubilant Brawler
+4 Blooming Marsh
+4 Fallaji Archaeologist
+1 Swamp
+2 Agatha's Soul Cauldron
+1 Forest
+4 Cache Grab
+4 Honest Rutstein
+1 Fountainport
+4 Darkslick Shores
+2 Underground River
+1 Fecund Greenshell
+4 Botanical Sanctum
+# v2
+7 Forest
+6 Swamp
+4 Llanowar Wastes
+4 Blooming Marsh
+1 Skyfisher Spider
+2 Cankerbloom
+4 Tyvar, Jubilant Brawler
+1 Voldaren Thrillseeker
+4 Snarling Gorehound
+4 Rubblebelt Maverick
+4 Insidious Roots
+2 Honest Rutstein
+2 Pillage the Bog
+2 Harvester of Misery
+4 Bonecache Overseer
+4 Osteomancer Adept
+4 Cache Grab
+1 Mudflat Village
+# Sideboard
+2 Cut Down
+4 Haywire Mite
+1 Agatha's Soul Cauldron
+2 Skyfisher Spider
+2 Anoint with Affliction
+1 Agatha's Soul Cauldron
+1 Deadly Cover-Up
+2 Harvester of Misery

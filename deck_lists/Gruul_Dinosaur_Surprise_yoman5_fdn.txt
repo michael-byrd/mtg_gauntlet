@@ -1,0 +1,18 @@
+Name: Gruul Dinosaur Surprise
+Author: yoman5
+# v1
+4 Ixalli's Lorekeeper
+6 Forest
+4 Smuggler's Surprise
+4 Thornspire Verge
+4 Triumphant Chomp
+4 Ghalta, Primal Hunger
+4 Copperline Gorge
+4 Belligerent Yearling
+3 Palani's Hatcher
+4 Etali, Primal Conqueror
+4 Cavern of Souls
+3 Hulking Raptor
+4 Karplusan Forest
+4 Llanowar Elves
+4 Pugnacious Hammerskull

@@ -1,0 +1,35 @@
+# Izzet Otter Control
+# v1
+4 Spirebluff Canal
+1 Ral, Crackling Wit
+4 Valley Floodcaller
+4 Thundertrap Trainer
+2 Kitsa, Otterball Elite
+4 Stormcatch Mentor
+4 Stormchaser's Talent
+3 Pearl of Wisdom
+2 Three Steps Ahead
+2 Phantom Interference
+2 Cavern of Souls
+1 Island
+2 Island
+3 Stoke the Flames
+4 Shivan Reef
+2 Restless Spire
+1 Shock
+1 Ral, Crackling Wit
+4 Meeting of Minds
+2 Mountain
+1 Mountain
+2 Fabled Passage
+3 Torch the Tower
+2 Thundering Falls
+# Sideboard
+2 Negate
+2 Disdainful Stroke
+2 Brotherhood's End
+2 Jace, the Perfected Mind
+2 Witchstalker Frenzy
+2 Tishana's Tidebinder
+1 Into the Flood Maw
+2 Season of the Bold

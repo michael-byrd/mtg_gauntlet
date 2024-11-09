@@ -1,0 +1,28 @@
+# Boros Convoke
+# v1
+4 Inspiring Vantage
+4 Battlefield Forge
+3 Cavern of Souls
+1 Eiganjo, Seat of the Empire
+2 Sokenzan, Crucible of Defiance
+4 Plains
+3 Mountain
+1 Sundown Pass
+4 Warden of the Inner Sky
+4 Novice Inspector
+4 Voldaren Epicure
+1 Yotian Frontliner
+4 Gleeful Demolition
+4 Resolute Reinforcements
+4 Imodane's Recruiter
+4 Warleader's Call
+1 Get Lost
+4 Case of the Gateway Express
+4 Knight-Errant of Eos
+# Sideboard
+4 Invasion of Gobakhan
+3 Get Lost
+2 Lithomantic Barrage
+2 End the Festivities
+3 Urabrask's Forge
+1 Mirrex

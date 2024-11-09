@@ -1,0 +1,28 @@
+# Sultai Hedge Shredder
+# v1
+4 Iridescent Vinelasher
+2 Urborg Repossession
+2 Drag to the Roots
+4 Cache Grab
+4 Wail of the Forgotten
+4 Spelunking
+4 Hedge Shredder
+4 Jace, the Perfected Mind
+3 Deadly Cover-Up
+1 Cut Down
+2 Blooming Marsh
+2 Botanical Sanctum
+2 Darkslick Shores
+2 Gloomlake Verge
+2 Hedge Maze
+2 Llanowar Wastes
+3 Restless Reef
+2 Undercity Sewers
+2 Underground Mortuary
+2 Underground River
+2 Yavimaya Coast
+1 Lumra, Bellow of the Woods
+1 Commune with Evil
+1 Island
+1 Swamp
+1 Forest

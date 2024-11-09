@@ -1,0 +1,40 @@
+Name: Temur Prowess Combo
+Author: Jason Ye
+Event: Magic World Championship 30
+# v1
+4 Valley Floodcaller
+1 Questing Druid
+4 Enduring Vitality
+4 Stormchaser's Talent
+4 This Town Ain't Big Enough
+4 Thundertrap Trainer
+2 Island
+2 Up the Beanstalk
+2 Roaring Furnace
+2 Forest
+1 Tarnation Vista
+1 Mountain
+4 Copperline Gorge
+4 Torch the Tower
+3 Analyze the Pollen
+2 Song of Totentanz
+4 Botanical Sanctum
+2 Bitter Reunion
+3 Fabled Passage
+1 Hedge Maze
+1 Yavimaya Coast
+3 Bushwhack
+1 Karplusan Forest
+1 Pawpatch Formation
+# Sideboard
+1 Abrade
+2 Negate
+1 Into the Flood Maw
+2 Pawpatch Formation
+2 Ghost Vacuum
+1 Volcanic Spite
+2 Dissection Tools
+1 Pyroclasm
+1 Up the Beanstalk
+1 Blue Sun's Twilight
+1 Screaming Nemesis

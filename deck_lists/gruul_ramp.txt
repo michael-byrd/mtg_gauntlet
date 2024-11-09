@@ -1,0 +1,32 @@
+# Gruul Ramp
+# v1
+1 Archdruid's Charm
+1 Arid Archway
+2 Armored Scrapgorger
+1 Boseiju, Who Endures
+4 Calamity, Galloping Inferno
+4 Cavern of Souls
+1 Commercial District
+6 Forest
+4 Glimpse the Core
+4 Karplusan Forest
+2 Mountain
+2 Obliterating Bolt
+2 Outcaster Trailblazer
+1 Restless Ridgeline
+4 Rockfall Vale
+4 Smuggler's Surprise
+4 Spinewoods Armadillo
+4 Terror of the Peaks
+4 Topiary Stomper
+4 Trumpeting Carnosaur
+1 Vaultborn Tyrant
+# Sideboard
+1 Archdruid's Charm
+3 Brotherhood's End
+2 Lithomantic Barrage
+1 Obstinate Baloth
+1 Pick Your Poison
+3 Tranquil Frillback
+2 Tyrranax Rex
+2 Volcanic Spite

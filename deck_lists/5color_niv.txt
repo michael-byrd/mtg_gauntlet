@@ -1,0 +1,38 @@
+# 5-Color Niv-Mizzet
+# v1
+2 Forest
+3 Plains
+1 Island
+1 Swamp
+1 Mountain
+2 Lightning Helix
+4 Fabled Passage
+4 Leyline Binding
+2 Sunfall
+4 Niv-Mizzet, Supreme
+4 Up the Beanstalk
+1 Doppelgang
+2 Ill-Timed Explosion
+2 Soul Search
+4 Commercial District
+1 Elegant Parlor
+1 Hedge Maze
+4 Lush Portico
+3 Thundering Falls
+2 Underground Mortuary
+1 Bonny Pall, Clearcutter
+2 Make Your Own Luck
+1 Pillage the Bog
+2 Roxanne, Starfall Savant
+4 Ancient Cornucopia
+2 Glarb, Calamity's Augur
+# Sideboard
+1 Disdainful Stroke
+2 Negate
+2 Duress
+1 Lightning Helix
+4 Temporary Lockdown
+2 Atraxa, Grand Unifier
+1 Molten Collapse
+1 Urgent Necropsy
+1 Hugs, Grisly Guardian

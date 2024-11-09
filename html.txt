@@ -1,0 +1,54 @@
+<div class="deck-container">
+	<div class="deck-header">
+		Format: Standard
+		<br>
+		Source: Unknown
+		<br>
+		<button type="button" onclick="closeDeckImg('Dimir_Midrange_Kai_Budde_Magic_World_Championship_30')" id="closeBtn_Dimir_Midrange_Kai_Budde_Magic_World_Championship_30" class="closeBtn">
+			Close Image
+		</button>
+		<img class="deck-image-popup" id="deckImg_Dimir_Midrange_Kai_Budde_Magic_World_Championship_30" style="width: 75%; margin: 0 auto;" src="assets/mtg_decks/Dimir_Midrange_Kai_Budde_Magic_World_Championship_30.png" alt="Deck Image">
+		<button type="button" onclick="showDeckImg('Dimir_Midrange_Kai_Budde_Magic_World_Championship_30')" id="viewBtn_Dimir_Midrange_Kai_Budde_Magic_World_Championship_30">
+			View Image
+		</button>
+	</div>
+	<div class="deck-list">
+		<div class="section">
+			<h2>Creatures (21)</h2>
+			<ul>
+				 <li><span class="card">4 Deep-Cavern Bat <img src="https://cards.scryfall.io/large/front/6/9/69c68c95-b788-43b1-9f22-1b22c5a00b25.jpg?1699044121" alt="Deep-Cavern Bat"> </span></li>
+				 <li><span class="card">4 Enduring Curiosity <img src="https://cards.scryfall.io/large/front/8/6/8616629e-08f9-41ad-bfec-f86c8096f1cb.jpg?1726286044" alt="Enduring Curiosity"> </span></li>
+				 <li><span class="card">4 Spyglass Siren <img src="https://cards.scryfall.io/large/front/4/1/41e54343-95e5-4dc4-9f18-e4a415fe5e0a.jpg?1699043946" alt="Spyglass Siren"> </span></li>
+				 <li><span class="card">4 Faerie Mastermind <img src="https://cards.scryfall.io/large/front/5/2/52d3005f-a1c7-4ef5-911f-ccc0752f4181.jpg?1682203104" alt="Faerie Mastermind"> </span></li>
+				 <li><span class="card">3 Unstoppable Slasher <img src="https://cards.scryfall.io/large/front/c/7/c78da035-6b5b-4136-9ab6-f622b64fdc54.jpg?1726286292" alt="Unstoppable Slasher"> </span></li>
+				 <li><span class="card">1 Ertai Resurrected <img src="https://cards.scryfall.io/large/front/7/f/7f7e780e-fbc5-4dc0-b5c7-efcb8645c7c6.jpg?1673307944" alt="Ertai Resurrected"> </span></li>
+				 <li><span class="card">1 Tishana's Tidebinder <img src="https://cards.scryfall.io/large/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1699043973" alt="Tishana's Tidebinder"> </span></li>
+			</ul>
+			<h2>Spells (12)</h2>
+			<ul>
+				 <li><span class="card">3 Cut Down <img src="https://cards.scryfall.io/large/front/7/5/753db072-5d6a-4f37-8f7d-255572ecd3bd.jpg?1673307061" alt="Cut Down"> </span></li>
+				 <li><span class="card">2 Phantom Interference <img src="https://cards.scryfall.io/large/front/0/0/00bf4dd1-5468-4594-9c7b-0737610f19d4.jpg?1712860598" alt="Phantom Interference"> </span></li>
+				 <li><span class="card">4 Go for the Throat <img src="https://cards.scryfall.io/large/front/5/4/5446e1ba-c745-45b2-ad05-b22abf04daec.jpg?1682209037" alt="Go for the Throat"> </span></li>
+				 <li><span class="card">1 Anoint with Affliction <img src="https://cards.scryfall.io/large/front/f/7/f7dc55a8-290f-4666-90ce-aa632e87c5e7.jpg?1675957006" alt="Anoint with Affliction"> </span></li>
+				 <li><span class="card">2 Three Steps Ahead <img src="https://cards.scryfall.io/large/front/8/f/8fffd839-2337-4a14-9312-cee085a17f4b.jpg?1712860611" alt="Three Steps Ahead"> </span></li>
+			</ul>
+			<h2>Planeswalkers (2)</h2>
+			<ul>
+				 <li><span class="card">2 Kaito, Bane of Nightmares <img src="https://cards.scryfall.io/large/front/5/5/55a14f30-4ff9-4472-90a6-c3139f1c18e5.jpg?1726286689" alt="Kaito, Bane of Nightmares"> </span></li>
+			</ul>
+		</div>
+		<div class="section">
+			<h2>Lands (25)</h2>
+			<ul>
+				 <li><span class="card">5 Swamp <img src="https://cards.scryfall.io/large/front/3/c/3c51de66-a3ed-4ca9-befb-9813e96c4ade.jpg?1726286923" alt="Swamp"> </span></li>
+				 <li><span class="card">4 Restless Reef <img src="https://cards.scryfall.io/large/front/8/a/8a8121c9-2480-419c-aa9c-5b8b55f65014.jpg?1699044703" alt="Restless Reef"> </span></li>
+				 <li><span class="card">4 Underground River <img src="https://cards.scryfall.io/large/front/5/e/5e50c8d5-6b22-4fc6-87ea-3d7d77ced17f.jpg?1726285574" alt="Underground River"> </span></li>
+				 <li><span class="card">4 Gloomlake Verge <img src="https://cards.scryfall.io/large/front/8/3/83f510b7-4cbd-4883-9c26-c8824bc668ac.jpg?1726286844" alt="Gloomlake Verge"> </span></li>
+				 <li><span class="card">2 Fountainport <img src="https://cards.scryfall.io/large/front/6/5/658cfcb7-81b7-48c6-9dd2-1663d06108cf.jpg?1721427323" alt="Fountainport"> </span></li>
+				 <li><span class="card">4 Darkslick Shores <img src="https://cards.scryfall.io/large/front/c/4/c49305d1-ac95-43ea-b02d-c3c7205bcda6.jpg?1712354960" alt="Darkslick Shores"> </span></li>
+				 <li><span class="card">2 Island <img src="https://cards.scryfall.io/large/front/9/4/947702ca-d065-4368-9f26-f859d4642cb6.jpg?1726286915" alt="Island"> </span></li>
+			</ul>
+		</div>
+	</div>
+</div>
+Dimir Midrange v1 v1 Visual done

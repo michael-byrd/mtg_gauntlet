@@ -1,0 +1,35 @@
+# Azorius Control
+# v1
+4 Restless Anchorage
+4 Plains
+4 Deserted Beach
+1 Eiganjo, Seat of the Empire
+1 Otawara, Soaring City
+3 March of Otherworldly Light
+4 Memory Deluge
+4 No More Lies
+4 Island
+4 Field of Ruin
+3 Sunfall
+4 Deduce
+2 Temporary Lockdown
+2 Adarkar Wastes
+4 Three Steps Ahead
+2 Seachrome Coast
+1 Demolition Field
+4 The Wandering Emperor
+2 Tishana's Tidebinder
+1 Get Lost
+1 Phantom Interference
+1 Hullbreaker Horror
+# Sideboard
+1 Negate
+3 Kutzil's Flanker
+2 Temporary Lockdown
+2 Dust Animus
+1 Get Lost
+2 Tishana's Tidebinder
+1 Stoic Sphinx
+1 March of Otherworldly Light
+1 Elesh Norn, Mother of Machines
+1 Disdainful Stroke

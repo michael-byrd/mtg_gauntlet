@@ -1,0 +1,17 @@
+# Ignore virtual environments
+venv/
+
+# Ignore Python cache files
+__pycache__/
+*.py[cod]
+
+# Ignore other unnecessary files
+.DS_Store
+.idea/
+.vscode/
+
+# Ignore deck_images
+deck_images/
+
+default-cards-20241104221446.json
+oracle-cards-20241104220317.json

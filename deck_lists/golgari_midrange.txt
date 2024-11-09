@@ -1,0 +1,38 @@
+# Golgari Midrange
+# v1
+1 Forest
+2 Cut Down
+4 Deathcap Glade
+3 Sheoldred, the Apocalypse
+4 Go for the Throat
+2 Liliana of the Veil
+1 Takenuma, Abandoned Mire
+4 Llanowar Wastes
+4 Mosswood Dreadknight
+3 Glissa Sunslayer
+4 Restless Cottage
+1 Boseiju, Who Endures
+4 Blooming Marsh
+3 Swamp
+3 Duress
+4 Caustic Bronco
+1 Bitter Triumph
+2 Hostile Investigator
+2 Field of Ruin
+2 Graveyard Trespasser
+2 Preacher of the Schism
+2 Mirrex
+1 Shoot the Sheriff
+1 Gix's Command
+# Sideboard
+3 Unlicensed Hearse
+1 Duress
+3 Path of Peril
+1 Cut Down
+1 Liliana of the Veil
+1 Nissa, Ascended Animist
+1 Tear Asunder
+1 Tranquil Frillback
+1 Dread Fugue
+1 Harvester of Misery
+1 The Gitrog, Ravenous Ride

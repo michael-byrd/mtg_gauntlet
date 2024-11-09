@@ -1,0 +1,34 @@
+# Simic Artifacts
+# v1
+3 Gingerbrute
+3 Hard-Hitting Question
+2 Lost Jitte
+3 Spyglass Siren
+4 Teething Wurmlet
+2 Agatha's Soul Cauldron
+3 Subterranean Schooner
+3 Surge Engine
+4 Tough Cookie
+2 Kitesail Larcenist
+4 Sentinel of the Nameless City
+4 Zoetic Glyph
+2 Forest
+2 Island
+4 Botanical Sanctum
+4 Yavimaya Coast
+2 Dreamroot Cascade
+1 Boseiju, Who Endures
+1 Otawara, Soaring City
+3 Mirrex
+3 Restless Vinestalk
+1 Cryptic Coat
+# Sideboard
+3 Pick Your Poison
+1 Soul-Guide Lantern
+2 Spell Pierce
+1 Kitesail Larcenist
+1 Cryptic Coat
+1 Haywire Mite
+3 Tishana's Tidebinder
+2 Repulsive Mutation
+1 Tezzeret, Betrayer of Flesh

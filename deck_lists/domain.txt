@@ -1,0 +1,32 @@
+# Domain
+# v1
+4 Herd Migration
+4 Archangel of Wrath
+4 Topiary Stomper
+3 Atraxa, Grand Unifier
+1 Imodane's Recruiter
+3 Up the Beanstalk
+3 Sunfall
+3 Depopulate
+4 Leyline Binding
+2 Spelunking
+1 Long Goodbye
+4 Ziatora's Proving Ground
+4 Spara's Headquarters
+4 Jetmir's Garden
+1 Raffine's Tower
+4 Cavern of Souls
+1 Boseiju, Who Endures
+3 Plains
+3 Forest
+1 Swamp
+1 Island
+2 Tranquil Frillback
+# Sideboard
+3 Long Goodbye
+2 Temporary Lockdown
+1 Elesh Norn, Mother of Machines
+3 Negate
+2 Rest in Peace
+2 Chrome Host Seedshark
+2 Tyrranax Rex
