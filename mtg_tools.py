@@ -8,7 +8,7 @@ import glob
 current_dir = os.path.dirname(os.path.abspath(__file__))
 deck_list_path = os.path.join(current_dir, 'deck_lists')
 
-with open('oracle-cards-20241104220317.json', 'r', encoding="utf8") as f:
+with open('oracle-cards-20241109220318.json', 'r', encoding="utf8") as f:
     ORACLE_DATA = json.load(f)
 
 ALL_KEYWORDS = set()

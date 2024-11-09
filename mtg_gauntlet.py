@@ -66,18 +66,14 @@ def update_deck_visuals(deck_lists):
 
 deck_lists = build_deck_lists('gauntlet')
 
-for index, deck in enumerate(deck_lists):
-    print(index, deck.deck_name)
-
-new_decks = [deck_lists[10], deck_lists[13]]
-
+update_deck_visuals(deck_lists)
 
 # (deck, sideboard, deck_name, version_number="v1", deck_obj=None):
-for new_deck in new_decks:
-    visual_spoiler_v2(new_deck.mainboard['v1'], new_deck.sideboard['v1'], new_deck.deck_name, "v1", new_deck)
+# for new_deck in new_decks:
+#     visual_spoiler_v2(new_deck.mainboard['v1'], new_deck.sideboard['v1'], new_deck.deck_name, "v1", new_deck)
 
 # build_gauntlet(deck_lists, 'gauntlet.json')
-# # Load the JSON files
+# # Load the JSO≤N files
 # json1 = load_json('gauntlet_old.json')
 # json2 = load_json('gauntlet.json')
 #
