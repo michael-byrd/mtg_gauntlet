@@ -66,8 +66,27 @@ def update_deck_visuals(deck_lists):
 if __name__ == "__main__":
 
     deck_lists = build_deck_lists('gauntlet')
+    for index, deck in enumerate(deck_lists):
+        print(index, deck.deck_name)
 
-    update_deck_visuals(deck_lists)
+    deck = deck_lists[21]
+
+    deck_to_html(deck)
+
+    # build_gauntlet(deck_lists, 'gauntlet.json')
+    #
+    # # Load the JSON files
+    # json1 = load_json('gauntlet_old.json')
+    # json2 = load_json('gauntlet.json')
+    #
+    # # Compare the JSON files
+    # differences = compare_cards(json1, json2)
+    # differences_dict = differences_to_dict(differences)
+    #
+    # print_differences(differences)
+
+    exit()
+
 
     # (deck, sideboard, deck_name, version_number="v1", deck_obj=None):
     # for new_deck in new_decks:

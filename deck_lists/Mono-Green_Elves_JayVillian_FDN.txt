@@ -1,0 +1,19 @@
+Name: Mono-Green Elves
+Author: Jay Villian
+# v1
+4 Llanowar Elves
+19 Forest
+3 Llanowar Stalker
+2 Druid of the Cowl
+3 Dwynen's Elite
+4 Leaf-Crowned Visionary
+3 Thornweald Archer
+3 Genesis Wave
+4 Elvish Archdruid
+3 Imperious Perfect
+2 Overrun
+2 Reclamation Sage
+3 Dwynen, Gilt-Leaf Daen
+2 Cavern of Souls
+2 Soulstone Sanctuary
+2 Royal Treatment

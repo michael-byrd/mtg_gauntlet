@@ -1,5 +1,5 @@
 Name: Mono-White Cats
-Author: yoman5
+Author: Version 1 yoman5 , Version 2 UntappedGG
 # v1
 3 Regal Caracal
 4 Helpful Hunter
@@ -13,3 +13,18 @@ Author: yoman5
 3 Three Tree City
 4 Progenitor Exarch
 3 Collector's Cage
+# v2
+15 Plains
+4 Savannah Lions
+4 Cavern of Souls
+4 Regal Caracal
+4 Leonin Vanguard
+3 Get Lost
+2 Kutzil's Flanker
+4 Roaming Throne
+2 Patchwork Banner
+2 Three Tree City
+4 Arahbo, the First Fang
+4 Helpful Hunter
+4 Skyknight Squire
+4 Soulstone Sanctuary

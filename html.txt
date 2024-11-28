@@ -4,51 +4,52 @@
 		<br>
 		Source: Unknown
 		<br>
-		<button type="button" onclick="closeDeckImg('Dimir_Midrange_Kai_Budde_Magic_World_Championship_30')" id="closeBtn_Dimir_Midrange_Kai_Budde_Magic_World_Championship_30" class="closeBtn">
+		<button type="button" onclick="closeDeckImg('Zur_Overlord_Domain_AliEldrazi')" id="closeBtn_Zur_Overlord_Domain_AliEldrazi" class="closeBtn">
 			Close Image
 		</button>
-		<img class="deck-image-popup" id="deckImg_Dimir_Midrange_Kai_Budde_Magic_World_Championship_30" style="width: 75%; margin: 0 auto;" src="assets/mtg_decks/Dimir_Midrange_Kai_Budde_Magic_World_Championship_30.png" alt="Deck Image">
-		<button type="button" onclick="showDeckImg('Dimir_Midrange_Kai_Budde_Magic_World_Championship_30')" id="viewBtn_Dimir_Midrange_Kai_Budde_Magic_World_Championship_30">
+		<img class="deck-image-popup" id="deckImg_Zur_Overlord_Domain_AliEldrazi" style="width: 75%; margin: 0 auto;" src="assets/mtg_decks/Zur_Overlord_Domain_AliEldrazi.png" alt="Deck Image">
+		<button type="button" onclick="showDeckImg('Zur_Overlord_Domain_AliEldrazi')" id="viewBtn_Zur_Overlord_Domain_AliEldrazi">
 			View Image
 		</button>
 	</div>
 	<div class="deck-list">
 		<div class="section">
-			<h2>Creatures (21)</h2>
+			<h2>Creatures (14)</h2>
 			<ul>
-				 <li><span class="card">4 Deep-Cavern Bat <img src="https://cards.scryfall.io/large/front/6/9/69c68c95-b788-43b1-9f22-1b22c5a00b25.jpg?1699044121" alt="Deep-Cavern Bat"> </span></li>
-				 <li><span class="card">4 Enduring Curiosity <img src="https://cards.scryfall.io/large/front/8/6/8616629e-08f9-41ad-bfec-f86c8096f1cb.jpg?1726286044" alt="Enduring Curiosity"> </span></li>
-				 <li><span class="card">4 Spyglass Siren <img src="https://cards.scryfall.io/large/front/4/1/41e54343-95e5-4dc4-9f18-e4a415fe5e0a.jpg?1699043946" alt="Spyglass Siren"> </span></li>
-				 <li><span class="card">4 Faerie Mastermind <img src="https://cards.scryfall.io/large/front/5/2/52d3005f-a1c7-4ef5-911f-ccc0752f4181.jpg?1682203104" alt="Faerie Mastermind"> </span></li>
-				 <li><span class="card">3 Unstoppable Slasher <img src="https://cards.scryfall.io/large/front/c/7/c78da035-6b5b-4136-9ab6-f622b64fdc54.jpg?1726286292" alt="Unstoppable Slasher"> </span></li>
-				 <li><span class="card">1 Ertai Resurrected <img src="https://cards.scryfall.io/large/front/7/f/7f7e780e-fbc5-4dc0-b5c7-efcb8645c7c6.jpg?1673307944" alt="Ertai Resurrected"> </span></li>
-				 <li><span class="card">1 Tishana's Tidebinder <img src="https://cards.scryfall.io/large/front/9/0/907b3d1d-8c85-4707-80b5-c4d832df9846.jpg?1699043973" alt="Tishana's Tidebinder"> </span></li>
+				 <li><span class="card">4 Zur, Eternal Schemer <img src="https://cards.scryfall.io/large/front/4/d/4d987435-2403-4e0f-b19d-693da923ba50.jpg?1673308159" alt="Zur, Eternal Schemer"> </span></li>
+				 <li><span class="card">3 Overlord of the Mistmoors <img src="https://cards.scryfall.io/large/front/6/b/6bcafc2e-cef6-412d-8c5d-1658c3337292.jpg?1726285942" alt="Overlord of the Mistmoors"> </span></li>
+				 <li><span class="card">3 Overlord of the Floodpits <img src="https://cards.scryfall.io/large/front/5/f/5fca5de8-9cda-4370-9f72-4462f8cfd696.jpg?1726286108" alt="Overlord of the Floodpits"> </span></li>
+				 <li><span class="card">4 Overlord of the Hauntwoods <img src="https://cards.scryfall.io/large/front/0/5/05d08ff1-edcc-4c76-96e0-683b3da36ebb.jpg?1726286590" alt="Overlord of the Hauntwoods"> </span></li>
 			</ul>
-			<h2>Spells (12)</h2>
+			<h2>Enchantments (10)</h2>
 			<ul>
-				 <li><span class="card">3 Cut Down <img src="https://cards.scryfall.io/large/front/7/5/753db072-5d6a-4f37-8f7d-255572ecd3bd.jpg?1673307061" alt="Cut Down"> </span></li>
-				 <li><span class="card">2 Phantom Interference <img src="https://cards.scryfall.io/large/front/0/0/00bf4dd1-5468-4594-9c7b-0737610f19d4.jpg?1712860598" alt="Phantom Interference"> </span></li>
-				 <li><span class="card">4 Go for the Throat <img src="https://cards.scryfall.io/large/front/5/4/5446e1ba-c745-45b2-ad05-b22abf04daec.jpg?1682209037" alt="Go for the Throat"> </span></li>
-				 <li><span class="card">1 Anoint with Affliction <img src="https://cards.scryfall.io/large/front/f/7/f7dc55a8-290f-4666-90ce-aa632e87c5e7.jpg?1675957006" alt="Anoint with Affliction"> </span></li>
-				 <li><span class="card">2 Three Steps Ahead <img src="https://cards.scryfall.io/large/front/8/f/8fffd839-2337-4a14-9312-cee085a17f4b.jpg?1712860611" alt="Three Steps Ahead"> </span></li>
+				 <li><span class="card">4 Leyline Binding <img src="https://cards.scryfall.io/large/front/3/c/3c3ac3dd-35db-447f-8674-37b4680a1ef7.jpg?1673306500" alt="Leyline Binding"> </span></li>
+				 <li><span class="card">2 Temporary Lockdown <img src="https://cards.scryfall.io/large/front/8/2/82b3088f-7b49-45e9-b447-129a597ceb75.jpg?1673306606" alt="Temporary Lockdown"> </span></li>
+				 <li><span class="card">4 Up the Beanstalk <img src="https://cards.scryfall.io/large/front/2/d/2d5e991f-23b2-4db0-a452-7755125b1fd2.jpg?1710276532" alt="Up the Beanstalk"> </span></li>
 			</ul>
-			<h2>Planeswalkers (2)</h2>
+			<h2>Spells (10)</h2>
 			<ul>
-				 <li><span class="card">2 Kaito, Bane of Nightmares <img src="https://cards.scryfall.io/large/front/5/5/55a14f30-4ff9-4472-90a6-c3139f1c18e5.jpg?1726286689" alt="Kaito, Bane of Nightmares"> </span></li>
+				 <li><span class="card">2 Herd Migration <img src="https://cards.scryfall.io/large/front/b/0/b0244a1f-e696-4223-9c14-22c2ca3cb738.jpg?1673307696" alt="Herd Migration"> </span></li>
+				 <li><span class="card">2 Scrollshift <img src="https://cards.scryfall.io/large/front/6/f/6fc278d1-2ea4-4fbc-95cd-a9cd48c3c630.jpg?1682202834" alt="Scrollshift"> </span></li>
+				 <li><span class="card">2 Sunfall <img src="https://cards.scryfall.io/large/front/3/2/32e29c7d-ed4b-4eff-b3c2-d99e5b63ef8d.jpg?1682202915" alt="Sunfall"> </span></li>
+				 <li><span class="card">4 Get Lost <img src="https://cards.scryfall.io/large/front/5/2/522aa72b-2b8c-484c-872b-f082101cee35.jpg?1699043186" alt="Get Lost"> </span></li>
 			</ul>
 		</div>
 		<div class="section">
-			<h2>Lands (25)</h2>
+			<h2>Lands (26)</h2>
 			<ul>
-				 <li><span class="card">5 Swamp <img src="https://cards.scryfall.io/large/front/3/c/3c51de66-a3ed-4ca9-befb-9813e96c4ade.jpg?1726286923" alt="Swamp"> </span></li>
-				 <li><span class="card">4 Restless Reef <img src="https://cards.scryfall.io/large/front/8/a/8a8121c9-2480-419c-aa9c-5b8b55f65014.jpg?1699044703" alt="Restless Reef"> </span></li>
-				 <li><span class="card">4 Underground River <img src="https://cards.scryfall.io/large/front/5/e/5e50c8d5-6b22-4fc6-87ea-3d7d77ced17f.jpg?1726285574" alt="Underground River"> </span></li>
-				 <li><span class="card">4 Gloomlake Verge <img src="https://cards.scryfall.io/large/front/8/3/83f510b7-4cbd-4883-9c26-c8824bc668ac.jpg?1726286844" alt="Gloomlake Verge"> </span></li>
-				 <li><span class="card">2 Fountainport <img src="https://cards.scryfall.io/large/front/6/5/658cfcb7-81b7-48c6-9dd2-1663d06108cf.jpg?1721427323" alt="Fountainport"> </span></li>
-				 <li><span class="card">4 Darkslick Shores <img src="https://cards.scryfall.io/large/front/c/4/c49305d1-ac95-43ea-b02d-c3c7205bcda6.jpg?1712354960" alt="Darkslick Shores"> </span></li>
-				 <li><span class="card">2 Island <img src="https://cards.scryfall.io/large/front/9/4/947702ca-d065-4368-9f26-f859d4642cb6.jpg?1726286915" alt="Island"> </span></li>
+				 <li><span class="card">2 Forest <img src="https://cards.scryfall.io/large/front/d/2/d232fcc2-12f6-401a-b1aa-ddff11cb9378.jpg?1730489646" alt="Forest"> </span></li>
+				 <li><span class="card">3 Plains <img src="https://cards.scryfall.io/large/front/4/e/4ef17ed4-a9b5-4b8e-b4cb-2ecb7e5898c3.jpg?1730489617" alt="Plains"> </span></li>
+				 <li><span class="card">1 Island <img src="https://cards.scryfall.io/large/front/1/7/17e2b637-72b1-4457-aaba-66d51107be4c.jpg?1730489625" alt="Island"> </span></li>
+				 <li><span class="card">1 Swamp <img src="https://cards.scryfall.io/large/front/3/1/319bc1f0-ee42-44e5-b08b-735613ded2ba.jpg?1730489632" alt="Swamp"> </span></li>
+				 <li><span class="card">4 Cavern of Souls <img src="https://cards.scryfall.io/large/front/3/a/3aad15a2-8a1b-4460-9b06-e85863081878.jpg?1706884128" alt="Cavern of Souls"> </span></li>
+				 <li><span class="card">2 Hedge Maze <img src="https://cards.scryfall.io/large/front/5/2/5260f8ae-805b-4eae-badf-62de0f768867.jpg?1706242346" alt="Hedge Maze"> </span></li>
+				 <li><span class="card">4 Lush Portico <img src="https://cards.scryfall.io/large/front/c/1/c17816e8-28b1-4295-a637-efb0e5c18873.jpg?1706242346" alt="Lush Portico"> </span></li>
+				 <li><span class="card">2 Meticulous Archive <img src="https://cards.scryfall.io/large/front/6/5/652236c2-84ef-45e4-b5fc-ed6170bc3d6c.jpg?1706242349" alt="Meticulous Archive"> </span></li>
+				 <li><span class="card">2 Shadowy Backstreet <img src="https://cards.scryfall.io/large/front/6/9/69c1b656-1d67-499c-bf0f-417682a86c7d.jpg?1706242364" alt="Shadowy Backstreet"> </span></li>
+				 <li><span class="card">2 Floodfarm Verge <img src="https://cards.scryfall.io/large/front/d/5/d53ed0db-1199-44b3-8eda-8189dfcf53d1.jpg?1726286841" alt="Floodfarm Verge"> </span></li>
+				 <li><span class="card">3 Hushwood Verge <img src="https://cards.scryfall.io/large/front/e/c/ec288d76-c1f5-471b-8a53-504f88469c1b.jpg?1726286848" alt="Hushwood Verge"> </span></li>
 			</ul>
 		</div>
 	</div>
 </div>
-Dimir Midrange v1 v1 Visual done

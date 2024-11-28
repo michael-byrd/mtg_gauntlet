@@ -68,7 +68,7 @@ def number_cards_per_row(distinct_num_cards_deck):
         return 4
 
 
-def visual_spoiler_v2(deck, sideboard, deck_name, version_number="v1", deck_obj=None):
+def visual_spoiler_v2(deck, sideboard, deck_name, version_number="v1", deck_obj=None, file_name=None):
     deck_colors = get_deck_colors(deck)
     distinct_num_cards_deck = len(deck)
     distinct_num_cards_sideboard = len(sideboard)
@@ -136,11 +136,12 @@ def visual_spoiler_v2(deck, sideboard, deck_name, version_number="v1", deck_obj=
     # blank_image.show()
     # replace spaces in deck name with underscores
 
-    file_name = ""
-    if deck_obj:
-        file_name = deck_obj.deck_name.replace(" ", "_") + "_" + deck_obj.deck_author.replace(" ", "_") + "_" + deck_obj.deck_event.replace(" ", "_")
-    else:
-        file_name = deck_name.replace(" ", "_")
+    if not file_name:
+        file_name = ""
+        if deck_obj:
+            file_name = deck_obj.deck_name.replace(" ", "_") + "_" + deck_obj.deck_author.replace(" ", "_") + "_" + deck_obj.deck_event.replace(" ", "_")
+        else:
+            file_name = deck_name.replace(" ", "_")
 
     # Trim all "_" from end
     file_name = file_name.rstrip("_")

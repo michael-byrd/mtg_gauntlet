@@ -46,7 +46,7 @@
         },
         {
             "name": "Plains",
-            "quantity": 16
+            "quantity": 27
         },
         {
             "name": "Island",
@@ -158,7 +158,7 @@
         },
         {
             "name": "Unstoppable Slasher",
-            "quantity": 4
+            "quantity": 8
         },
         {
             "name": "Caustic Bronco",
@@ -326,7 +326,7 @@
         },
         {
             "name": "Kutzil's Flanker",
-            "quantity": 3
+            "quantity": 5
         },
         {
             "name": "Dust Animus",
@@ -390,7 +390,7 @@
         },
         {
             "name": "Forest",
-            "quantity": 13
+            "quantity": 26
         },
         {
             "name": "Herd Migration",
@@ -469,6 +469,54 @@
             "quantity": 4
         },
         {
+            "name": "Cut Down",
+            "quantity": 8
+        },
+        {
+            "name": "Llanowar Elves",
+            "quantity": 8
+        },
+        {
+            "name": "Llanowar Wastes",
+            "quantity": 8
+        },
+        {
+            "name": "Maelstrom Pulse",
+            "quantity": 3
+        },
+        {
+            "name": "Blooming Marsh",
+            "quantity": 8
+        },
+        {
+            "name": "Sheoldred, the Apocalypse",
+            "quantity": 5
+        },
+        {
+            "name": "Archfiend of the Dross",
+            "quantity": 4
+        },
+        {
+            "name": "Glissa Sunslayer",
+            "quantity": 7
+        },
+        {
+            "name": "Mosswood Dreadknight // Dread Whispers",
+            "quantity": 8
+        },
+        {
+            "name": "Restless Cottage",
+            "quantity": 8
+        },
+        {
+            "name": "Underground Mortuary",
+            "quantity": 6
+        },
+        {
+            "name": "Unholy Annex // Ritual Chamber",
+            "quantity": 4
+        },
+        {
             "name": "Toby, Beastie Befriender",
             "quantity": 3
         },
@@ -482,7 +530,7 @@
         },
         {
             "name": "Collector's Cage",
-            "quantity": 4
+            "quantity": 7
         },
         {
             "name": "Gleeful Demolition",
@@ -541,10 +589,6 @@
             "quantity": 8
         },
         {
-            "name": "Cut Down",
-            "quantity": 8
-        },
-        {
             "name": "Ertai Resurrected",
             "quantity": 3
         },
@@ -567,10 +611,6 @@
         {
             "name": "Kellan, Daring Traveler // Journey On",
             "quantity": 3
-        },
-        {
-            "name": "Blooming Marsh",
-            "quantity": 8
         },
         {
             "name": "Elas il-Kor, Sadistic Pilgrim",
@@ -641,10 +681,6 @@
             "quantity": 4
         },
         {
-            "name": "Underground Mortuary",
-            "quantity": 6
-        },
-        {
             "name": "Ancient Cornucopia",
             "quantity": 7
         },
@@ -701,6 +737,50 @@
             "quantity": 3
         },
         {
+            "name": "Regal Caracal",
+            "quantity": 4
+        },
+        {
+            "name": "Helpful Hunter",
+            "quantity": 4
+        },
+        {
+            "name": "Arahbo, the First Fang",
+            "quantity": 4
+        },
+        {
+            "name": "Leonin Vanguard",
+            "quantity": 4
+        },
+        {
+            "name": "Savannah Lions",
+            "quantity": 4
+        },
+        {
+            "name": "Skyknight Squire",
+            "quantity": 4
+        },
+        {
+            "name": "Three Tree City",
+            "quantity": 4
+        },
+        {
+            "name": "Progenitor Exarch",
+            "quantity": 4
+        },
+        {
+            "name": "Roaming Throne",
+            "quantity": 4
+        },
+        {
+            "name": "Patchwork Banner",
+            "quantity": 2
+        },
+        {
+            "name": "Soulstone Sanctuary",
+            "quantity": 6
+        },
+        {
             "name": "Aclazotz, Deepest Betrayal // Temple of the Dead",
             "quantity": 3
         },
@@ -719,10 +799,6 @@
         {
             "name": "Restless Reef",
             "quantity": 7
-        },
-        {
-            "name": "Sheoldred, the Apocalypse",
-            "quantity": 4
         },
         {
             "name": "Underground River",
@@ -817,16 +893,8 @@
             "quantity": 8
         },
         {
-            "name": "Llanowar Elves",
-            "quantity": 4
-        },
-        {
             "name": "Pugnacious Hammerskull",
             "quantity": 4
-        },
-        {
-            "name": "Llanowar Wastes",
-            "quantity": 8
         },
         {
             "name": "Yavimaya Coast",
@@ -1077,10 +1145,6 @@
             "quantity": 4
         },
         {
-            "name": "Three Tree City",
-            "quantity": 1
-        },
-        {
             "name": "Monstrous Rage",
             "quantity": 8
         },
@@ -1261,10 +1325,6 @@
             "quantity": 8
         },
         {
-            "name": "Glissa Sunslayer",
-            "quantity": 7
-        },
-        {
             "name": "Piggy Bank",
             "quantity": 8
         },
@@ -1275,6 +1335,54 @@
         {
             "name": "Lich-Knights' Conquest",
             "quantity": 4
+        },
+        {
+            "name": "Llanowar Stalker",
+            "quantity": 3
+        },
+        {
+            "name": "Druid of the Cowl",
+            "quantity": 2
+        },
+        {
+            "name": "Dwynen's Elite",
+            "quantity": 3
+        },
+        {
+            "name": "Leaf-Crowned Visionary",
+            "quantity": 4
+        },
+        {
+            "name": "Thornweald Archer",
+            "quantity": 3
+        },
+        {
+            "name": "Genesis Wave",
+            "quantity": 3
+        },
+        {
+            "name": "Elvish Archdruid",
+            "quantity": 4
+        },
+        {
+            "name": "Imperious Perfect",
+            "quantity": 3
+        },
+        {
+            "name": "Overrun",
+            "quantity": 2
+        },
+        {
+            "name": "Reclamation Sage",
+            "quantity": 2
+        },
+        {
+            "name": "Dwynen, Gilt-Leaf Daen",
+            "quantity": 3
+        },
+        {
+            "name": "Royal Treatment",
+            "quantity": 2
         },
         {
             "name": "Silent Hallcreeper",
@@ -1666,14 +1774,6 @@
         },
         {
             "name": "Deathcap Glade",
-            "quantity": 4
-        },
-        {
-            "name": "Mosswood Dreadknight // Dread Whispers",
-            "quantity": 4
-        },
-        {
-            "name": "Restless Cottage",
             "quantity": 4
         },
         {
