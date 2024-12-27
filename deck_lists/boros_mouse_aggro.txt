@@ -1,4 +1,4 @@
-# Boros Mouse Aggro
+Name: Boros Mouse Aggro, Boros Mouse Aggro
 # v1
 4 Raging Battle Mouse
 4 Witchstalker Frenzy

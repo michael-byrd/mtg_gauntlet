@@ -2,10 +2,11 @@ import glob
 from gauntlet_tools import *
 from visualization_tools import *
 import hashlib
+import math, itertools
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 deck_list_path = os.path.join(current_dir, 'deck_lists')
-pre_gauntlet_deck_list_oath = os.path.join(current_dir, 'pre_gauntlet_deck_lists')
+pre_gauntlet_deck_list_path = os.path.join(current_dir, 'pre_gauntlet_deck_lists')
 image_path = os.path.join(current_dir, 'deck_images')
 
 
@@ -37,12 +38,13 @@ def create_or_load_deck(raw_deck):
     new_deck.save_to_cache(cache_file)
     return new_deck
 
+
 def build_deck_lists(which_decks='gauntlet'):
     print("Building Deck Lists")
     if which_decks == 'gauntlet':
         txt_files = glob.glob(os.path.join(deck_list_path, '*.txt'))
     else:
-        txt_files = glob.glob(os.path.join(pre_gauntlet_deck_list_oath, '*.txt'))
+        txt_files = glob.glob(os.path.join(pre_gauntlet_deck_list_path, '*.txt'))
     decks = []
     deck_names = []
     for txt_file in txt_files:
@@ -54,39 +56,154 @@ def build_deck_lists(which_decks='gauntlet'):
         print(current_deck[0].strip(), "Build")
     return decks
 
+
 def update_deck_visuals(deck_lists):
     for deck in deck_lists:
         for version in deck.mainboard.keys():
-            deck_list = deck.mainboard[version]
-            sideboard_list = deck.sideboard[version]
-            deck_name = deck.deck_name + " " + version
-            visual_spoiler_v2(deck_list, sideboard_list, deck_name, version, deck)
+            # deck_list = deck.mainboard[version]
+            # sideboard_list = deck.sideboard[version]
+            deck_name = deck.deck_name[version] + " " + version
+            # visual_spoiler_v2(deck_list, sideboard_list, deck_name, version, deck)
+            visual_spoiler_v2(deck, version)
             print(deck_name, version, "Visual done")
+
+
+def generate_token_html(card_name, uri):
+    html = ""
+    layout = uri.get('layout', None)
+    if layout == 'token' or layout == 'flip':
+        img_url = uri['image_uris']['large']
+        html = f'<li><span class="card">{card_name} <img src="{img_url}" alt="{card_name}"> </span></li>'
+    elif layout == 'double_faced_token':
+        img_url_front = uri['card_faces'][0]['image_uris']['large']
+        img_url_back = uri['card_faces'][1]['image_uris']['large']
+        html = f'<li><span class="card">{card_name} <img src="{img_url_front}" alt="{card_name}" class="front"> <img src="{img_url_back}" alt="{card_name}" class="back"> </span></li>'
+    elif layout == 'emblem':
+        img_url = uri['image_uris']['large']
+        html = f'<li><span class="card">{card_name} <img src="{img_url}" alt="{card_name}"> </span></li>'
+    else:
+        return f"Token layout not supported: {layout}"
+
+    return html
+    # card = get_card_entry(card_name)
+    # if card['layout'] == 'split':
+    #     html = f'<li><span class="rotated-card">{quantity} {card_name} <img src="{img_url}" alt="{card_name}"> </span></li>'
+    #     return html
+    # if card['layout'] == 'transform':
+    #     img_url_front = img_url
+    #     img_url_back = img_url.replace('front', 'back')
+    #     html = f'<li><span class="card">{quantity} {card_name} <img src="{img_url_front}" alt="{card_name}" class="front"> <img src="{img_url_back}" alt="{card_name}" class="back"> </span></li>'
+    #     return html
+    # html = f'<li><span class="card">{quantity} {card_name} <img src="{img_url}" alt="{card_name}"> </span></li>'
+    # return html
+
+def generate_token_list(deck, version='v1'):
+    token_html = []
+    for item in deck.mainboard[version]:
+        card = get_card_entry(item)
+        card_parts = card.get('all_parts', [])
+        for part in card_parts:
+            component = part.get('component', None)
+            if component == 'token':
+                uri = requests.get(part['uri']).json()
+                token_html.append(generate_token_html(part['name'], uri))
+            if component == 'combo_piece' and 'Emblem' in part.get('type_line', ''):
+                uri = requests.get(part['uri']).json()
+                token_html.append(generate_token_html(part['name'], uri))
+    for item in deck.sideboard.get(version, {}):
+        card = get_card_entry(item)
+        card_parts = card.get('all_parts', [])
+        for part in card_parts:
+            component = part.get('component', None)
+            if component == 'token':
+                uri = requests.get(part['uri']).json()
+                token_html.append(generate_token_html(part['name'], uri))
+            if component == 'combo_piece' and 'Emblem' in part.get('type_line', ''):
+                uri = requests.get(part['uri']).json()
+                token_html.append(generate_token_html(part['name'], uri))
+    token_html.sort()
+    for item in token_html:
+        print(item)
+    print("\n\n")
+
+def deck_distance(deck1, deck2):
+    deck1_nonlands = [card for card in deck1 if get_card_type(card) != 'Land']
+    deck2_nonlands = [card for card in deck2 if get_card_type(card) != 'Land']
+    common_cards = set()
+    for card in deck1_nonlands:
+        if card in deck2_nonlands:
+            common_cards.add(card)
+    dist = max(len(common_cards) / len(deck1_nonlands), len(common_cards) / len(deck2_nonlands)) * 100
+    return math.floor(dist)
 
 if __name__ == "__main__":
 
+
+    standard_mainboards = []
     deck_lists = build_deck_lists('gauntlet')
     for index, deck in enumerate(deck_lists):
-        print(index, deck.deck_name)
+        for version in deck.mainboard.keys():
+            # if deck.is_standard_legal(version=version):
+            standard_mainboards.append([deck.deck_name[version], deck.mainboard[version]])
+            if deck.deck_name[version] == 'Jund Midrange' and version == 'v1':
+                visual_spoiler_v2(deck, version, show=True)
+                generate_token_list(deck, version)
 
-    deck = deck_lists[21]
+    # for pair in itertools.combinations(standard_mainboards, 2):
+    #     dist = deck_distance(pair[0][1], pair[1][1])
+    #     if dist > 50:
+    #         print(f"{pair[0][0]} and {pair[1][0]} have a distance of {dist}")
 
-    deck_to_html(deck)
 
-    # build_gauntlet(deck_lists, 'gauntlet.json')
+
+
+    build_gauntlet(deck_lists, 'gauntlet.json')
+
+    # Load the JSON files
+    json1 = load_json('gauntlet_old.json')
+    json2 = load_json('gauntlet.json')
     #
-    # # Load the JSON files
-    # json1 = load_json('gauntlet_old.json')
-    # json2 = load_json('gauntlet.json')
-    #
-    # # Compare the JSON files
-    # differences = compare_cards(json1, json2)
-    # differences_dict = differences_to_dict(differences)
-    #
-    # print_differences(differences)
+    # Compare the JSON files
+    differences = compare_cards(json1, json2)
+    differences_dict = differences_to_dict(differences)
+
+    print_differences(differences)
+
 
     exit()
 
+
+    deck = deck_lists[11]
+    visual_spoiler_v2(deck.mainboard['v1'], deck.sideboard['v1'], deck.deck_name, "v1", deck)
+    # deck_to_html(deck)
+
+
+
+    exit()
+
+
+    def is_number(s):
+        if s is None:
+            return False
+        try:
+            float(s)
+            return True
+        except ValueError:
+            return False
+
+
+    total = 0
+    for item in json2['cards']:
+        card = get_card_entry(item['name'])
+        cost = 0
+        if is_number(card['prices']['usd']):
+            cost = float(card['prices']['usd'])
+        if cost > 10:
+            print(f"{item['name']:<60} {cost:.2f}")
+        total += cost * item['quantity']
+
+    print(total)
+    exit()
 
     # (deck, sideboard, deck_name, version_number="v1", deck_obj=None):
     # for new_deck in new_decks:
@@ -102,8 +219,6 @@ if __name__ == "__main__":
     #
     # # Print the differences
     # print_differences(differences)
-
-
 
     exit()
 
@@ -121,7 +236,6 @@ if __name__ == "__main__":
         for index, deck in enumerate(deck_lists):
             if deck_name in deck.deck_name:
                 nums.append(index)
-
 
     decks_wanted = [deck_lists[num] for num in nums]
 
@@ -178,7 +292,6 @@ if __name__ == "__main__":
     print_differences(differences)
 
 
-
     # with open('deck.txt', 'r') as file:
     #     deck = file.readlines()
     #
@@ -186,15 +299,12 @@ if __name__ == "__main__":
     # visual_spoiler_v2(deck.mainboard['v1'], deck.sideboard['v1'], deck.deck_name)
     #
 
-
     def generate_card_html(card_name, img_url):
         html = f'<li><span class="card">{card_name} <img src="{img_url}" alt="{card_name}"> </span></li>'
         return html
 
 
-
     # print(generate_card_html(card['name'], card['image_uris']['normal']))
-
 
     # for item in deck_lists:
     #     deck_to_html(item)
@@ -204,10 +314,12 @@ if __name__ == "__main__":
 
     import re
 
+
     def is_word_in_string(word, string):
         # Use \b to denote word boundaries, with re.IGNORECASE for case-insensitivity
         pattern = r'\b' + re.escape(word) + r'\b'
         return bool(re.search(pattern, string, re.IGNORECASE))
+
 
     def get_all_oracle_text(card_name):
         card = get_card_entry(card_name)
@@ -215,6 +327,7 @@ if __name__ == "__main__":
             return card['oracle_text']
         elif 'card_faces' in card:
             return card['card_faces'][0]['oracle_text'] + " // " + card['card_faces'][1]['oracle_text']
+
 
     def get_deck_keywords(deck):
         deck_keywords = set()
@@ -232,7 +345,6 @@ if __name__ == "__main__":
         return deck_keywords
 
 
-
     # deck = deck_lists[2]
     #
     # for item in deck.mainboard['v1']:
@@ -244,11 +356,6 @@ if __name__ == "__main__":
 
     # for i ,deck in enumerate(deck_lists):
     #     print(deck.deck_name, deck.mainboard['v1'])
-
-
-
-
-
 
     nums = [1, 6, 8, 10, 13, 19, 20, 25, 26, 28]
     decks_wanted = [deck_lists[num] for num in nums]
@@ -286,12 +393,7 @@ if __name__ == "__main__":
     # all_keywords_needed = sorted([keyword.title() for keyword in all_keywords_needed])
     # print(all_keywords_needed)
 
-
-
     # visual_spoiler_v2(cards_needed, {}, "Duskmourn Mini Gauntlet", "")
-
-
-
 
     # print(sorted(ALL_KEYWORDS))
     # begin = time.time()
@@ -301,9 +403,8 @@ if __name__ == "__main__":
     #     print(deck.deck_name, kw)
     # print(time.time() - begin)
 
-
-
     # split_deck = separate_card_types(deck_lists[5].mainboard['v1'])
+    # for card_type in split_deck:
     # for card_type in split_deck:
     #     print(card_type, split_deck[card_type])
 
@@ -312,10 +413,8 @@ if __name__ == "__main__":
     #     # Add equal spacing between the two pieces of data
     #
     #     print(f"{card['name']:<40} {get_main_card_type(get_card_type(card))}")
-        # card_text = f'{deck_lists[5].mainboard["v1"][item]} &ensp; {item}'
-        # print(generate_card_html(card_text, card['image_uris']['large']))
-
-
+    # card_text = f'{deck_lists[5].mainboard["v1"][item]} &ensp; {item}'
+    # print(generate_card_html(card_text, card['image_uris']['large']))
 
     # print("\n \n")
     # print("Deck Objects Built \n \n")
@@ -332,5 +431,3 @@ if __name__ == "__main__":
     # #
     # deck = MTGDeck(deck)
     # visual_spoiler_v2(deck.mainboard['v1'], deck.sideboard['v1'], deck.deck_name)
-
-

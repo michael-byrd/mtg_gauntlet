@@ -68,7 +68,11 @@ def number_cards_per_row(distinct_num_cards_deck):
         return 4
 
 
-def visual_spoiler_v2(deck, sideboard, deck_name, version_number="v1", deck_obj=None, file_name=None):
+def visual_spoiler_v2(deck_obj, version_number="v1", file_name=None, save=False, show=False):
+    deck = deck_obj.mainboard[version_number]
+    sideboard = deck_obj.sideboard[version_number]
+    deck_name = deck_obj.deck_name[version_number]
+    sideboard = deck
     deck_colors = get_deck_colors(deck)
     distinct_num_cards_deck = len(deck)
     distinct_num_cards_sideboard = len(sideboard)
@@ -133,16 +137,22 @@ def visual_spoiler_v2(deck, sideboard, deck_name, version_number="v1", deck_obj=
 
         blank_image.paste(image, current_position, image)
         image.close()
-    # blank_image.show()
-    # replace spaces in deck name with underscores
+
+
 
     if not file_name:
         file_name = ""
         if deck_obj:
-            file_name = deck_obj.deck_name.replace(" ", "_") + "_" + deck_obj.deck_author.replace(" ", "_") + "_" + deck_obj.deck_event.replace(" ", "_")
+            file_name = deck_obj.deck_name.get(version_number, "").replace(" ", "_") + "_" + deck_obj.deck_author.get(
+                version_number, "").replace(" ", "_") + "_" + deck_obj.deck_event.get(version_number, "").replace(" ", "_")
+            # file_name = deck_obj.deck_name[version_number].replace(" ", "_") + "_" + deck_obj.deck_author[version_number].replace(" ", "_") + "_" + deck_obj.deck_event[version_number].replace(" ", "_")
         else:
             file_name = deck_name.replace(" ", "_")
 
     # Trim all "_" from end
     file_name = file_name.rstrip("_")
-    blank_image.save(f"deck_images/{file_name}.png")
+    print(file_name)
+    if save:
+        blank_image.save(f"deck_images/{file_name}.png")
+    if show:
+        blank_image.show()

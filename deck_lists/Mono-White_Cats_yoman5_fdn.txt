@@ -1,5 +1,5 @@
-Name: Mono-White Cats
-Author: Version 1 yoman5 , Version 2 UntappedGG
+Name: Mono-White Cats, Mono-White Cats
+Author: yoman5, UntappedGG
 # v1
 3 Regal Caracal
 4 Helpful Hunter

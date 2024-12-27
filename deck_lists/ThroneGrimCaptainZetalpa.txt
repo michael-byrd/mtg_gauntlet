@@ -1,0 +1,31 @@
+Name: Throne of the Grim Captain with Zetalpa
+Author: SaffronOlive
+# v1
+2 Concealed Courtyard
+4 Cut Down
+4 Darkslick Shores
+4 Elenda, Saint of Dusk
+4 Refute
+2 Floodpits Drowner
+1 Swamp
+3 Kiora, the Rising Tide
+4 Malcolm, Alluring Scoundrel
+4 Plaza of Heroes
+2 Restless Anchorage
+3 Seachrome Coast
+2 Island
+3 Throne of the Grim Captain
+4 Urborg Scavengers
+4 Valgavoth's Lair
+4 Zetalpa, Primal Dawn
+2 Bitter Triumph
+4 Don't Make a Sound
+# Sideboard
+1 Vampire Nighthawk
+1 Drana and Linvala
+2 Go for the Throat
+3 Disdainful Stroke
+1 Pest Control
+3 The Kenriths' Royal Funeral
+2 Destroy Evil
+2 Floodpits Drowner

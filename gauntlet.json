@@ -230,7 +230,7 @@
         },
         {
             "name": "Torch the Tower",
-            "quantity": 7
+            "quantity": 8
         },
         {
             "name": "Thundering Falls",
@@ -242,7 +242,7 @@
         },
         {
             "name": "Disdainful Stroke",
-            "quantity": 4
+            "quantity": 5
         },
         {
             "name": "Brotherhood's End",
@@ -254,7 +254,7 @@
         },
         {
             "name": "Witchstalker Frenzy",
-            "quantity": 8
+            "quantity": 7
         },
         {
             "name": "Tishana's Tidebinder",
@@ -398,7 +398,7 @@
         },
         {
             "name": "Archangel of Wrath",
-            "quantity": 8
+            "quantity": 4
         },
         {
             "name": "Topiary Stomper",
@@ -410,7 +410,7 @@
         },
         {
             "name": "Imodane's Recruiter // Train Troops",
-            "quantity": 8
+            "quantity": 5
         },
         {
             "name": "Up the Beanstalk",
@@ -454,7 +454,7 @@
         },
         {
             "name": "Tranquil Frillback",
-            "quantity": 5
+            "quantity": 6
         },
         {
             "name": "Rest in Peace",
@@ -467,6 +467,138 @@
         {
             "name": "Tyrranax Rex",
             "quantity": 4
+        },
+        {
+            "name": "Hedge Maze",
+            "quantity": 4
+        },
+        {
+            "name": "Lush Portico",
+            "quantity": 8
+        },
+        {
+            "name": "Meticulous Archive",
+            "quantity": 6
+        },
+        {
+            "name": "Overlord of the Mistmoors",
+            "quantity": 4
+        },
+        {
+            "name": "Overlord of the Hauntwoods",
+            "quantity": 8
+        },
+        {
+            "name": "Hushwood Verge",
+            "quantity": 6
+        },
+        {
+            "name": "Zur, Eternal Schemer",
+            "quantity": 4
+        },
+        {
+            "name": "Scrollshift",
+            "quantity": 2
+        },
+        {
+            "name": "Shadowy Backstreet",
+            "quantity": 6
+        },
+        {
+            "name": "Overlord of the Floodpits",
+            "quantity": 3
+        },
+        {
+            "name": "Floodfarm Verge",
+            "quantity": 8
+        },
+        {
+            "name": "Elspeth's Smite",
+            "quantity": 2
+        },
+        {
+            "name": "Not on My Watch",
+            "quantity": 2
+        },
+        {
+            "name": "Doppelgang",
+            "quantity": 2
+        },
+        {
+            "name": "Ghost Vacuum",
+            "quantity": 2
+        },
+        {
+            "name": "Pawpatch Formation",
+            "quantity": 3
+        },
+        {
+            "name": "Battlefield Forge",
+            "quantity": 8
+        },
+        {
+            "name": "Boltwave",
+            "quantity": 4
+        },
+        {
+            "name": "Boros Charm",
+            "quantity": 4
+        },
+        {
+            "name": "Burst Lightning",
+            "quantity": 4
+        },
+        {
+            "name": "Elegant Parlor",
+            "quantity": 4
+        },
+        {
+            "name": "Emberheart Challenger",
+            "quantity": 8
+        },
+        {
+            "name": "Heartfire Hero",
+            "quantity": 8
+        },
+        {
+            "name": "Inspiring Vantage",
+            "quantity": 8
+        },
+        {
+            "name": "Manifold Mouse",
+            "quantity": 8
+        },
+        {
+            "name": "Monastery Swiftspear",
+            "quantity": 8
+        },
+        {
+            "name": "Monstrous Rage",
+            "quantity": 8
+        },
+        {
+            "name": "Restless Bivouac",
+            "quantity": 4
+        },
+        {
+            "name": "Sheltered by Ghosts",
+            "quantity": 8
+        },
+        {
+            "name": "Slickshot Show-Off",
+            "quantity": 8
+        },
+        {
+            "name": "Thran Portal",
+            "quantity": 5
+        },
+        {
+            "name": "Lithomantic Barrage",
+            "quantity": 6
+        },
+        {
+            "name": "Urabrask's Forge",
+            "quantity": 7
         },
         {
             "name": "Cut Down",
@@ -482,7 +614,7 @@
         },
         {
             "name": "Maelstrom Pulse",
-            "quantity": 3
+            "quantity": 6
         },
         {
             "name": "Blooming Marsh",
@@ -510,51 +642,11 @@
         },
         {
             "name": "Underground Mortuary",
-            "quantity": 6
+            "quantity": 7
         },
         {
             "name": "Unholy Annex // Ritual Chamber",
             "quantity": 4
-        },
-        {
-            "name": "Toby, Beastie Befriender",
-            "quantity": 3
-        },
-        {
-            "name": "Over the Top",
-            "quantity": 4
-        },
-        {
-            "name": "Resolute Reinforcements",
-            "quantity": 8
-        },
-        {
-            "name": "Collector's Cage",
-            "quantity": 7
-        },
-        {
-            "name": "Gleeful Demolition",
-            "quantity": 8
-        },
-        {
-            "name": "Warden of the Inner Sky",
-            "quantity": 8
-        },
-        {
-            "name": "Battlefield Forge",
-            "quantity": 8
-        },
-        {
-            "name": "Novice Inspector",
-            "quantity": 8
-        },
-        {
-            "name": "Clockwork Percussionist",
-            "quantity": 8
-        },
-        {
-            "name": "Inspiring Vantage",
-            "quantity": 8
         },
         {
             "name": "Relic of Legends",
@@ -574,7 +666,7 @@
         },
         {
             "name": "Plaza of Heroes",
-            "quantity": 4
+            "quantity": 8
         },
         {
             "name": "Takenuma, Abandoned Mire",
@@ -590,7 +682,7 @@
         },
         {
             "name": "Ertai Resurrected",
-            "quantity": 3
+            "quantity": 4
         },
         {
             "name": "Concealed Courtyard",
@@ -653,28 +745,8 @@
             "quantity": 6
         },
         {
-            "name": "Elegant Parlor",
-            "quantity": 3
-        },
-        {
-            "name": "Hedge Maze",
-            "quantity": 4
-        },
-        {
-            "name": "Lush Portico",
-            "quantity": 8
-        },
-        {
-            "name": "Meticulous Archive",
-            "quantity": 6
-        },
-        {
             "name": "Raucous Theater",
             "quantity": 3
-        },
-        {
-            "name": "Shadowy Backstreet",
-            "quantity": 6
         },
         {
             "name": "Undercity Sewers",
@@ -697,23 +769,75 @@
             "quantity": 4
         },
         {
-            "name": "Overlord of the Hauntwoods",
-            "quantity": 8
-        },
-        {
-            "name": "Floodfarm Verge",
-            "quantity": 8
-        },
-        {
             "name": "Gloomlake Verge",
-            "quantity": 4
-        },
-        {
-            "name": "Hushwood Verge",
-            "quantity": 6
+            "quantity": 7
         },
         {
             "name": "Thornspire Verge",
+            "quantity": 8
+        },
+        {
+            "name": "Elenda, Saint of Dusk",
+            "quantity": 4
+        },
+        {
+            "name": "Refute",
+            "quantity": 4
+        },
+        {
+            "name": "Floodpits Drowner",
+            "quantity": 7
+        },
+        {
+            "name": "Kiora, the Rising Tide",
+            "quantity": 3
+        },
+        {
+            "name": "Malcolm, Alluring Scoundrel",
+            "quantity": 4
+        },
+        {
+            "name": "Throne of the Grim Captain // The Grim Captain",
+            "quantity": 3
+        },
+        {
+            "name": "Urborg Scavengers",
+            "quantity": 4
+        },
+        {
+            "name": "Valgavoth's Lair",
+            "quantity": 4
+        },
+        {
+            "name": "Zetalpa, Primal Dawn",
+            "quantity": 4
+        },
+        {
+            "name": "Bitter Triumph",
+            "quantity": 6
+        },
+        {
+            "name": "Don't Make a Sound",
+            "quantity": 4
+        },
+        {
+            "name": "Vampire Nighthawk",
+            "quantity": 1
+        },
+        {
+            "name": "Drana and Linvala",
+            "quantity": 1
+        },
+        {
+            "name": "The Kenriths' Royal Funeral",
+            "quantity": 3
+        },
+        {
+            "name": "Destroy Evil",
+            "quantity": 3
+        },
+        {
+            "name": "Resolute Reinforcements",
             "quantity": 8
         },
         {
@@ -729,12 +853,24 @@
             "quantity": 4
         },
         {
+            "name": "Novice Inspector",
+            "quantity": 8
+        },
+        {
+            "name": "Warden of the Inner Sky",
+            "quantity": 6
+        },
+        {
             "name": "The Wandering Rescuer",
             "quantity": 2
         },
         {
-            "name": "Thran Portal",
-            "quantity": 3
+            "name": "Clockwork Percussionist",
+            "quantity": 8
+        },
+        {
+            "name": "Gleeful Demolition",
+            "quantity": 8
         },
         {
             "name": "Regal Caracal",
@@ -769,6 +905,10 @@
             "quantity": 4
         },
         {
+            "name": "Collector's Cage",
+            "quantity": 7
+        },
+        {
             "name": "Roaming Throne",
             "quantity": 4
         },
@@ -785,12 +925,8 @@
             "quantity": 3
         },
         {
-            "name": "Bitter Triumph",
-            "quantity": 5
-        },
-        {
             "name": "Deadly Cover-Up",
-            "quantity": 3
+            "quantity": 6
         },
         {
             "name": "Preacher of the Schism",
@@ -810,11 +946,11 @@
         },
         {
             "name": "Agatha's Soul Cauldron",
-            "quantity": 5
+            "quantity": 4
         },
         {
             "name": "Glistening Deluge",
-            "quantity": 1
+            "quantity": 2
         },
         {
             "name": "Malicious Eclipse",
@@ -822,7 +958,7 @@
         },
         {
             "name": "Outrageous Robbery",
-            "quantity": 1
+            "quantity": 2
         },
         {
             "name": "Cult Conscript",
@@ -1002,11 +1138,7 @@
         },
         {
             "name": "Anoint with Affliction",
-            "quantity": 2
-        },
-        {
-            "name": "Overlord of the Mistmoors",
-            "quantity": 5
+            "quantity": 4
         },
         {
             "name": "Splitskin Doll",
@@ -1097,10 +1229,6 @@
             "quantity": 1
         },
         {
-            "name": "Lithomantic Barrage",
-            "quantity": 5
-        },
-        {
             "name": "Obstinate Baloth",
             "quantity": 1
         },
@@ -1129,28 +1257,8 @@
             "quantity": 4
         },
         {
-            "name": "Emberheart Challenger",
-            "quantity": 8
-        },
-        {
-            "name": "Manifold Mouse",
-            "quantity": 4
-        },
-        {
             "name": "Rockface Village",
             "quantity": 8
-        },
-        {
-            "name": "Heartfire Hero",
-            "quantity": 4
-        },
-        {
-            "name": "Monstrous Rage",
-            "quantity": 8
-        },
-        {
-            "name": "Restless Bivouac",
-            "quantity": 2
         },
         {
             "name": "Demonic Ruckus",
@@ -1181,28 +1289,36 @@
             "quantity": 8
         },
         {
-            "name": "Monastery Swiftspear",
-            "quantity": 8
-        },
-        {
             "name": "Bloodthirsty Adversary",
             "quantity": 4
         },
         {
-            "name": "Slickshot Show-Off",
-            "quantity": 8
-        },
-        {
-            "name": "Urabrask's Forge",
-            "quantity": 7
-        },
-        {
             "name": "Scorching Shot",
+            "quantity": 4
+        },
+        {
+            "name": "Unlicensed Hearse",
             "quantity": 5
+        },
+        {
+            "name": "End the Festivities",
+            "quantity": 4
+        },
+        {
+            "name": "Furnace Punisher",
+            "quantity": 2
         },
         {
             "name": "Koth, Fire of Resistance",
-            "quantity": 5
+            "quantity": 4
+        },
+        {
+            "name": "Vampires' Vengeance",
+            "quantity": 4
+        },
+        {
+            "name": "Cemetery Gatekeeper",
+            "quantity": 2
         },
         {
             "name": "Charming Scoundrel",
@@ -1221,60 +1337,8 @@
             "quantity": 4
         },
         {
-            "name": "Unlicensed Hearse",
-            "quantity": 5
-        },
-        {
-            "name": "End the Festivities",
-            "quantity": 4
-        },
-        {
-            "name": "Furnace Punisher",
-            "quantity": 2
-        },
-        {
-            "name": "Vampires' Vengeance",
-            "quantity": 4
-        },
-        {
-            "name": "Cemetery Gatekeeper",
-            "quantity": 2
-        },
-        {
             "name": "Jaya, Fiery Negotiator",
             "quantity": 2
-        },
-        {
-            "name": "Zur, Eternal Schemer",
-            "quantity": 4
-        },
-        {
-            "name": "Scrollshift",
-            "quantity": 2
-        },
-        {
-            "name": "Overlord of the Floodpits",
-            "quantity": 3
-        },
-        {
-            "name": "Elspeth's Smite",
-            "quantity": 2
-        },
-        {
-            "name": "Not on My Watch",
-            "quantity": 2
-        },
-        {
-            "name": "Doppelgang",
-            "quantity": 2
-        },
-        {
-            "name": "Ghost Vacuum",
-            "quantity": 2
-        },
-        {
-            "name": "Pawpatch Formation",
-            "quantity": 3
         },
         {
             "name": "Valley Flamecaller",
@@ -1295,6 +1359,42 @@
         {
             "name": "Hearthborn Battler",
             "quantity": 4
+        },
+        {
+            "name": "Overlord of the Boilerbilges",
+            "quantity": 8
+        },
+        {
+            "name": "Decadent Dragon // Expensive Taste",
+            "quantity": 3
+        },
+        {
+            "name": "The End",
+            "quantity": 2
+        },
+        {
+            "name": "Nowhere to Run",
+            "quantity": 2
+        },
+        {
+            "name": "Vivien Reid",
+            "quantity": 2
+        },
+        {
+            "name": "Sunken Citadel",
+            "quantity": 1
+        },
+        {
+            "name": "Nissa, Ascended Animist",
+            "quantity": 2
+        },
+        {
+            "name": "Pyroclasm",
+            "quantity": 2
+        },
+        {
+            "name": "Krenko's Buzzcrusher",
+            "quantity": 1
         },
         {
             "name": "Dour Port-Mage",
@@ -1339,10 +1439,6 @@
         {
             "name": "The Swarmweaver",
             "quantity": 1
-        },
-        {
-            "name": "Overlord of the Boilerbilges",
-            "quantity": 5
         },
         {
             "name": "Fear of Missing Out",
@@ -1425,10 +1521,6 @@
             "quantity": 4
         },
         {
-            "name": "Sheltered by Ghosts",
-            "quantity": 4
-        },
-        {
             "name": "Optimistic Scavenger",
             "quantity": 4
         },
@@ -1438,7 +1530,7 @@
         },
         {
             "name": "Mockingbird",
-            "quantity": 4
+            "quantity": 5
         },
         {
             "name": "Feather of Flight",
@@ -1470,6 +1562,14 @@
         },
         {
             "name": "Invasion of Gobakhan // Lightshield Array",
+            "quantity": 4
+        },
+        {
+            "name": "Toby, Beastie Befriender",
+            "quantity": 3
+        },
+        {
+            "name": "Over the Top",
             "quantity": 4
         },
         {
@@ -1670,7 +1770,7 @@
         },
         {
             "name": "Spyglass Siren",
-            "quantity": 3
+            "quantity": 7
         },
         {
             "name": "Teething Wurmlet",
@@ -1746,7 +1846,7 @@
         },
         {
             "name": "Faerie Mastermind",
-            "quantity": 7
+            "quantity": 8
         },
         {
             "name": "Dennick, Pious Apprentice // Dennick, Pious Apparition",
@@ -1765,12 +1865,28 @@
             "quantity": 4
         },
         {
-            "name": "Destroy Evil",
+            "name": "Gix's Command",
+            "quantity": 2
+        },
+        {
+            "name": "Enduring Curiosity",
+            "quantity": 3
+        },
+        {
+            "name": "Kaito, Bane of Nightmares",
+            "quantity": 3
+        },
+        {
+            "name": "Sheoldred's Edict",
             "quantity": 1
         },
         {
-            "name": "Gix's Command",
+            "name": "Faebloom Trick",
             "quantity": 2
+        },
+        {
+            "name": "Withering Torment",
+            "quantity": 1
         },
         {
             "name": "Make Disappear",
@@ -1803,10 +1919,6 @@
         {
             "name": "Deathcap Glade",
             "quantity": 4
-        },
-        {
-            "name": "Nissa, Ascended Animist",
-            "quantity": 1
         },
         {
             "name": "Tear Asunder",

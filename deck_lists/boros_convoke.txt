@@ -1,4 +1,5 @@
-# Boros Convoke
+Name: Boros Convoke, Boros Meme Convoke
+Author: UntappedGG, yoman5
 # v1
 4 Inspiring Vantage
 4 Battlefield Forge
@@ -26,3 +27,19 @@
 2 End the Festivities
 3 Urabrask's Forge
 1 Mirrex
+# v2
+3 Toby, Beastie Befriender
+4 Over the Top
+4 Resolute Reinforcements
+4 Collector's Cage
+4 Gleeful Demolition
+4 Imodane's Recruiter
+4 Warden of the Inner Sky
+4 Battlefield Forge
+4 Novice Inspector
+4 Clockwork Percussionist
+4 Inspiring Vantage
+5 Mountain
+6 Plains
+4 Knight-Errant of Eos
+2 Mirrex

@@ -1,7 +1,5 @@
-<button type="button" onclick="closeDeckImg('boros_triggers')" id="closeBtn_boros_triggers" class="closeBtn">
-			Close Image
-		</button>
-		<img class="deck-image-popup" id="deckImg_boros_triggers" style="width: 75%; margin: 0 auto;" src="assets/mtg_decks/Boros_Triggers_v1.png" alt="Deck Image"> 
-		<button type="button" onclick="showDeckImg('boros_triggers')" id="viewBtn_boros_triggers">
-			View Image
-		</button>
+5c Leyline of Mutation and Zur Overlord Domain have a distance of 57
+5c Leyline of Mutation and 5-Color Niv-Mizzet have a distance of 56
+5c Leyline of Mutation and 4c Domain Duskmourn have a distance of 66
+Zur Overlord Domain and 4c Domain Duskmourn have a distance of 83
+5-Color Niv-Mizzet and 4c Domain Duskmourn have a distance of 55

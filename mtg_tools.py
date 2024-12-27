@@ -18,7 +18,7 @@ for item in ORACLE_DATA:
 
 def get_card_entry(card_name, delay=0.15):
     """
-    Retrieves card details from local Oracle data o`````````````````````````````r, if not found, from the Scryfall API.
+    Retrieves card details from local Oracle data or, if not found, from the Scryfall API.
 
     Args:
         card_name (str): The name of the card to look up.
@@ -36,7 +36,7 @@ def get_card_entry(card_name, delay=0.15):
             return card
 
     # Add a delay to prevent rate limiting
-    print("Used Scryfall API")
+    print("Used Scryfall API", card_name)
     time.sleep(delay)
 
     # Query the Scryfall API for the card using fuzzy search
@@ -50,15 +50,24 @@ def get_card_entry(card_name, delay=0.15):
         return None  # Handle errors by returning None or an appropriate response
 
 
-# Consider reworking, using a different approach
-# Determine which functions depend on this and see
-# if we can find an alternative
+# Changed this function to use a different function to get card data.
+# May need to revert changes later if there are issues.
+# Change made on 2024/11/27
 def get_oracle_name(card_name):
-    url = 'https://api.scryfall.com/cards/named?fuzzy=' + card_name
-    # Wait for 100ms to avoid rate limiting
-    time.sleep(0.2)
-    response = requests.get(url)
-    data = response.json()
+
+    """
+    Old method of getting data.
+    May need to return to this if
+    new version causes issues.
+    """
+    # url = 'https://api.scryfall.com/cards/named?fuzzy=' + card_name
+    # # Wait for 100ms to avoid rate limiting
+    # time.sleep(0.2)
+    # response = requests.get(url)
+    # data = response.json()
+
+    data = get_card_entry(card_name)
+
     # print(card_name, data)
     return data['name']
 
@@ -277,6 +286,8 @@ def get_deck_colors(deck):
     return deck_colors
 
 def get_card_type(card):
+    if type(card) == str:
+        card = get_card_entry(card)
     if card['layout'] == 'transform':
         return card['card_faces'][0]['type_line']
     return card['type_line']

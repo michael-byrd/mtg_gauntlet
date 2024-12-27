@@ -1,18 +1,19 @@
-# Jeskai Rooms
+Name: Jeskai Rooms, Jeskai Rooms
+Author: Saffron Olive, CFavretto_Jr's Viewer
 # v1
-4 Central Elevator /// Promising Stairs
-4 Roaring Furnace /// Steaming Sauna
-1 Underwater Tunnel /// Slimy Aquarium
+4 Central Elevator // Promising Stairs
+4 Roaring Furnace // Steaming Sauna
+1 Underwater Tunnel // Slimy Aquarium
 4 Gremlin Tamer
 4 Ghostly Dancers
 4 Entity Tracker
-2 Charred Foyer /// Warped Space
-2 Mirror Room /// Fractured Realm
-3 Restricted Office /// Lecture Hall
-1 Surgical Suite /// Hospital Room
-1 Meat Locker /// Drowned Diner
-1 Painter's Studio /// Defaced Gallery
-2 Bottomless Pool /// Locker Room
+2 Charred Foyer // Warped Space
+2 Mirror Room // Fractured Realm
+3 Restricted Office // Lecture Hall
+1 Surgical Suite // Hospital Room
+1 Meat Locker // Drowned Diner
+1 Painter's Studio // Defaced Gallery
+2 Bottomless Pool // Locker Room
 2 Get Lost
 1 Thundering Falls
 2 Spirebluff Canal

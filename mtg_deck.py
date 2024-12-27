@@ -6,9 +6,9 @@ class MTGDeck:
     def __init__(self, raw_deck):
         self.mainboard = {}
         self.sideboard = {}
-        self.deck_name = ""
-        self.deck_author = ""
-        self.deck_event = ""
+        self.deck_name = {}
+        self.deck_author = {}
+        self.deck_event = {}
         self.raw_deck = raw_deck
         self.build_deck_list()
 
@@ -43,11 +43,17 @@ class MTGDeck:
                 meta_info_dict[key.strip()] = value.strip()
 
         if "Name" in meta_info_dict:
-            self.deck_name = meta_info_dict["Name"]
+            names = meta_info_dict["Name"].split(", ")
+            for i, item in enumerate(names):
+                self.deck_name["v" + str(i + 1)] = item.strip()
         if "Author" in meta_info_dict:
-            self.deck_author = meta_info_dict["Author"]
+            authors = meta_info_dict["Author"].split(", ")
+            for i, item in enumerate(authors):
+                self.deck_author["v" + str(i + 1)] = item.strip()
         if "Event" in meta_info_dict:
-            self.deck_event = meta_info_dict["Event"]
+            events = meta_info_dict["Event"].split(", ")
+            for i, item in enumerate(events):
+                self.deck_event["v" + str(i + 1)] = item.strip()
 
         versions = {}
         for section in sections:
@@ -77,24 +83,20 @@ class MTGDeck:
 
     def get_cards_needed(self):
         cards_needed = {}
+
         for version in self.mainboard:
             for card_name, quantity in self.mainboard[version].items():
-                if card_name in cards_needed:
-                    cards_needed[card_name] = max(cards_needed[card_name], quantity)
+                name, number = card_name, quantity + self.sideboard.get(version, {}).get(card_name, 0)
+                if name in cards_needed:
+                    cards_needed[name] = max(cards_needed[name], number)
                 else:
-                    cards_needed[card_name] = quantity
-        cards_needed_sideboard = {}
-        for version in self.sideboard:
+                    cards_needed[name] = number
             for card_name, quantity in self.sideboard[version].items():
-                if card_name in cards_needed_sideboard:
-                    cards_needed_sideboard[card_name] = max(cards_needed_sideboard[card_name], quantity)
+                name, number = card_name, quantity
+                if name in cards_needed:
+                    cards_needed[name] = max(cards_needed[name], number)
                 else:
-                    cards_needed_sideboard[card_name] = quantity
-        for card_name, quantity in cards_needed_sideboard.items():
-            if card_name in cards_needed:
-                cards_needed[card_name] += quantity
-            else:
-                cards_needed[card_name] = quantity
+                    cards_needed[name] = number
         return cards_needed
 
     def get_color_distribution(self):
@@ -108,3 +110,18 @@ class MTGDeck:
                 else:
                     color_distribution[c] = quantity
         print(color_distribution)
+
+    def legal_formats(self, version="v1"):
+        legal_formats = set()
+        for card_name in self.mainboard[version]:
+            card_legal_formats = set()
+            card = get_card_entry(card_name)
+            legalities = card['legalities']
+            for format, legality in legalities.items():
+                if legality == 'legal':
+                    card_legal_formats.add(format)
+            legal_formats = legal_formats.intersection(card_legal_formats) if legal_formats else card_legal_formats
+        return legal_formats
+
+    def is_standard_legal(self, version="v1"):
+        return 'standard' in self.legal_formats(version)
