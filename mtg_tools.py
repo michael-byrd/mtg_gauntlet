@@ -1,9 +1,7 @@
 import json
 import requests
 import time
-import pprint
 import os
-import glob
 
 current_dir = os.path.dirname(os.path.abspath(__file__))
 deck_list_path = os.path.join(current_dir, 'deck_lists')
@@ -15,6 +13,7 @@ ALL_KEYWORDS = set()
 for item in ORACLE_DATA:
     for keyword in item['keywords']:
         ALL_KEYWORDS.add(keyword)
+
 
 def get_card_entry(card_name, delay=0.15):
     """
@@ -54,7 +53,6 @@ def get_card_entry(card_name, delay=0.15):
 # May need to revert changes later if there are issues.
 # Change made on 2024/11/27
 def get_oracle_name(card_name):
-
     """
     Old method of getting data.
     May need to return to this if

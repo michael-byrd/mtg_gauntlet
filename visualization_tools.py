@@ -1,7 +1,4 @@
 import math
-import time
-import json
-import requests
 import cairosvg
 import io
 from PIL import Image, ImageDraw, ImageFont

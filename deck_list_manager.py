@@ -1,7 +1,6 @@
 import json
 import requests
 import time
-import pprint
 import os
 import glob
 

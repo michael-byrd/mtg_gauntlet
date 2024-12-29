@@ -1,5 +1,3 @@
-from mtg_tools import *
-import json
 from visualization_tools import *
 
 def load_json(file_path):
